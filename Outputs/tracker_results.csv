@@ -1,0 +1,4 @@
+Sequence,Tracker,AUC (Success),Precision@20px,Avg FPS,Notes
+CAR1,Kalman,0.9178,0.9931,942100155.0,Simulated perfect detector : motion model only
+CAR1,KCF,0.0867,0.1766,357.0,Visual tracker : appearance based
+CAR1,CSRT,0.2718,0.8273,41.3,Visual tracker : appearance based
