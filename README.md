@@ -28,13 +28,6 @@ Tracking: Kalman Filter predicts object motion, KCF and CSRT used as baselines
 Update: Kalman Filter corrects predictions using detections
 Evaluation: Compared with ground truth using OTB metrics
 
-Project Structure
-├── EvaluateOTB.py        # Main evaluation script
-├── KFmain.ipynb         # Kalman filter implementation
-├── yolo11n_training.ipynb  # YOLO training notebook
-├── best.pt              # Trained YOLO model
-├── README.md            # Project documentation
-
 Requirements
 Install dependencies:
 pip install opencv-python numpy matplotlib
